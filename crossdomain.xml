@@ -1,0 +1,4 @@
+<?xml version="1.0" ?>
+<cross-domain-policy>
+<Access-Control-Allow-Origin: https://github.com/FutureFireplace/playcanvasTest/raw/master/>
+</cross-domain-policy>
