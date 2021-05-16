@@ -1,0 +1,141 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "03_NatSmaaSpejle_HalvDiscoKLippede",
+            "scale" : [
+                1.050937294960022,
+                1.050937294960022,
+                1.050937294960022
+            ],
+            "translation" : [
+                0.010631250217556953,
+                -0.017582476139068604,
+                0.017636973410844803
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "SPejl",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0.30454546213150024,
+                "roughnessFactor" : 0.009090900421142578
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere.003",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "MIrro",
+            "uri" : "MIrro.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 80675,
+            "max" : [
+                1.0537968873977661,
+                1.053828239440918,
+                1.0537941455841064
+            ],
+            "min" : [
+                -1.0537959337234497,
+                -1.053828239440918,
+                -0.9826729893684387
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 80675,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 80675,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5125,
+            "count" : 119175,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 968100,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 968100,
+            "byteOffset" : 968100
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 645400,
+            "byteOffset" : 1936200
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 476700,
+            "byteOffset" : 2581600
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 3058300,
+            "uri" : "MM__DIscoKuglYdre23.bin"
+        }
+    ]
+}
