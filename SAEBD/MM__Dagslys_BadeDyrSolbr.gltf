@@ -1,0 +1,127 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "TaggySolbrille_Glas",
+            "rotation" : [
+                -0.02222510799765587,
+                0.9953691363334656,
+                0.07790982723236084,
+                -0.05173822119832039
+            ],
+            "scale" : [
+                0.028269674628973007,
+                0.028269676491618156,
+                0.02826967090368271
+            ],
+            "translation" : [
+                0.04897462576627731,
+                1.5929145812988281,
+                -1.1625816822052002
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "alphaMode" : "BLEND",
+            "doubleSided" : true,
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "[Translucent_Glass_Blue]",
+            "pbrMetallicRoughness" : {
+                "baseColorFactor" : [
+                    0.1801442950963974,
+                    0.007155037019401789,
+                    0.02775527909398079,
+                    0.7799999713897705
+                ],
+                "metallicFactor" : 0,
+                "roughnessFactor" : 0.5
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sketchup.002",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1
+                    },
+                    "indices" : 2,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 681,
+            "max" : [
+                11.759635925292969,
+                2.760000467300415,
+                0.5673336982727051
+            ],
+            "min" : [
+                -0.356791228055954,
+                0,
+                -0.30783000588417053
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 681,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5123,
+            "count" : 3462,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 8172,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 8172,
+            "byteOffset" : 8172
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 6924,
+            "byteOffset" : 16344
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 23268,
+            "uri" : "MM__Dagslys_BadeDyrSolbr.bin"
+        }
+    ]
+}
