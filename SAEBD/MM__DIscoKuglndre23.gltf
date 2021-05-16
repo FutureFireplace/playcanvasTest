@@ -1,0 +1,141 @@
+{
+    "asset" : {
+        "generator" : "Khronos glTF Blender I/O v1.2.75",
+        "version" : "2.0"
+    },
+    "scene" : 0,
+    "scenes" : [
+        {
+            "name" : "Scene",
+            "nodes" : [
+                0
+            ]
+        }
+    ],
+    "nodes" : [
+        {
+            "mesh" : 0,
+            "name" : "03_Nat_IndreFuldSPej_ConcretDisco",
+            "scale" : [
+                1.0879080295562744,
+                1.0879080295562744,
+                1.0879080295562744
+            ],
+            "translation" : [
+                0.010631250217556953,
+                -0.014474581927061081,
+                0.017636973410844803
+            ]
+        }
+    ],
+    "materials" : [
+        {
+            "emissiveFactor" : [
+                0,
+                0,
+                0
+            ],
+            "name" : "SPejl",
+            "pbrMetallicRoughness" : {
+                "baseColorTexture" : {
+                    "index" : 0,
+                    "texCoord" : 0
+                },
+                "metallicFactor" : 0.30454546213150024,
+                "roughnessFactor" : 0.009090900421142578
+            }
+        }
+    ],
+    "meshes" : [
+        {
+            "name" : "Sphere.010",
+            "primitives" : [
+                {
+                    "attributes" : {
+                        "POSITION" : 0,
+                        "NORMAL" : 1,
+                        "TEXCOORD_0" : 2
+                    },
+                    "indices" : 3,
+                    "material" : 0
+                }
+            ]
+        }
+    ],
+    "textures" : [
+        {
+            "source" : 0
+        }
+    ],
+    "images" : [
+        {
+            "mimeType" : "image/png",
+            "name" : "MIrro2",
+            "uri" : "MIrro2.png"
+        }
+    ],
+    "accessors" : [
+        {
+            "bufferView" : 0,
+            "componentType" : 5126,
+            "count" : 3611,
+            "max" : [
+                0.9999968409538269,
+                0.7431448101997375,
+                0.9302672147750854
+            ],
+            "min" : [
+                -0.9999958276748657,
+                -1,
+                -1
+            ],
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 1,
+            "componentType" : 5126,
+            "count" : 3611,
+            "type" : "VEC3"
+        },
+        {
+            "bufferView" : 2,
+            "componentType" : 5126,
+            "count" : 3611,
+            "type" : "VEC2"
+        },
+        {
+            "bufferView" : 3,
+            "componentType" : 5123,
+            "count" : 19824,
+            "type" : "SCALAR"
+        }
+    ],
+    "bufferViews" : [
+        {
+            "buffer" : 0,
+            "byteLength" : 43332,
+            "byteOffset" : 0
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 43332,
+            "byteOffset" : 43332
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 28888,
+            "byteOffset" : 86664
+        },
+        {
+            "buffer" : 0,
+            "byteLength" : 39648,
+            "byteOffset" : 115552
+        }
+    ],
+    "buffers" : [
+        {
+            "byteLength" : 155200,
+            "uri" : "MM__DIscoKuglndre23.bin"
+        }
+    ]
+}
